@@ -3,6 +3,8 @@
 # Runtime: 63 ms, faster than 89.83% of Python3 online submissions for Zigzag Conversion.
 # Memory Usage: 14.1 MB, less than 51.21% of Python3 online submissions for Zigzag Conversion.
 
+# Note: The whole problem is reduced to generating a cyclic order
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         
