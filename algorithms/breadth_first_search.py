@@ -2,9 +2,6 @@
 
 # deques support pops and appends on either side with O(1)
 from collections import deque
-from xxlimited import new
-
-from jmespath import search
 
 # source: the grokking algorithms book
 graph = {}
