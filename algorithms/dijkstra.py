@@ -3,8 +3,8 @@
 
 # PriorityQueue: a queue where elements are sorted
 # When adding tuples to a PQ, the first element determines the sorting 
-# In these case we add tuples (distance, node) to the PQ
-# So when we get an element from PQ, we know we're always getting the closest node
+# In this case we add tuples (distance, node) to the PQ
+# So when we get from PQ, we know we're always getting the closest node
 from queue import PriorityQueue
 
 class Graph:

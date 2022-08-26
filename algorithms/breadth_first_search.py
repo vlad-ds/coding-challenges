@@ -33,6 +33,7 @@ def bfs(graph, start_node="you", end_node="thom"):
                 return node
             else:
                 if graph.get(node):
+                    # add all adjacent nodes to the queue
                     search_queue += graph[node]
     return -1
 
